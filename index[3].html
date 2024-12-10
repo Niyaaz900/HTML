@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <title>Vragen-formlier</title>
+  <link rel="stylesheet" href="..\pagina-1\coolestijl.css">
+
+  <meta name="author" content="David Onischke">
+  <meta name="keywords" content="HTML, CSS">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="navA"> <a href="index[1].html"> HOOFDPAGINA </a></div>
+    <div class="navB"> <a href="index[2].html"> GALLERIJ </a></div>
+    <div class="navC"> <a href="index[3].html"> INSCHRIJVEN </a></div>
+  </div>
+
+
+  <header class="header">
+    <h1>Schrijf je hier in voor onze tournament</h1>
+  </header>
+
+  <div>
+    <form action="/action_page.php">
+      <label for="fname">Wat is je naam?</label>
+      <input type="text" id="fname" name="firstname" placeholder="Naam">
+      
+      <br><br>
+
+      <label for="lname">Wat zijn je contactgegevens?</label>
+      <input type="text" id="lname" name="lastname" placeholder="Bijv. Email, Instagram etc..">
+      
+      <br><br>
+
+      <label for="country">Waar in Flevoland woon je?</label>
+      <select id="country" name="country">
+        <option value="Lelystad">Lelystad</option>
+        <option value="Almere">Almere</option>
+        <option value="Urk">Urk</option>
+        <option value="Zeewolde">Zeewolde</option>
+        <option value="Biddinghuizen">Biddinghuizen</option>
+        <option value="Dronten">Dronten</option>
+        <option value="Swifterhand">Swifterhand</option>
+        <option value="Schokland">Schokland</option>
+        <option value="Kraggenburg">Kraggenburg</option>
+      </select>
+      
+      <br><br>
+
+      <label for="platform">Op welk platform speel je?</label>
+      <select id="platform">
+        <option value="PS4">PS4</option>
+        <option value="PC">PC</option>
+        <option value="XBOX">XBOX</option>
+        <option value="PS5">PS5</option>
+      </select>
+
+      <br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <!-- 
+  1. Naam
+  2. Sociale media
+  3. Woonplaats
+  4. Platform
+ -->
+
+</body>
+
+</html>
